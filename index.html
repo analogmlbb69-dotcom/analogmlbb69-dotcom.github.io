@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RZKY PORTO - Rizky | MENYALA</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0A0000;color:#fff;overflow-x:hidden}
+@keyframes bgMove{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-14px) rotate(12deg)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+@keyframes wiggle{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes marquee{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+@keyframes shine{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes fall{0%{transform:translateY(-20px);opacity:1}100%{transform:translateY(110vh);opacity:0}}
+@keyframes pop{0%{transform:scale(.8);opacity:0}100%{transform:scale(1);opacity:1}}
+.hero{background:linear-gradient(45deg,#FF0000,#7A0000,#FF8A00,#7A0000,#FF0000);background-size:300% 300%;animation:bgMove 4s ease infinite;padding:34px 16px 26px;text-align:center;position:relative}
+.star{position:absolute;font-size:26px;animation:float 2.5s ease-in-out infinite}.s1{top:10px;left:12px}.s2{top:14px;right:14px}.s3{top:100px;left:18px}.s4{top:100px;right:18px}
+.confetti{position:absolute;top:-10px;font-size:18px;animation:fall 3s linear infinite}
+.hero h1{font-size:56px;margin:6px 0;line-height:.9;text-shadow:0 4px 0 #000,0 0 20px #FFD700;animation:pop .6s ease}
+.typing{font-size:17px;color:#FFD700;font-weight:bold;min-height:24px}
+.btn{display:block;text-align:center;padding:17px;border-radius:18px;text-decoration:none;font-weight:bold;font-size:18px;margin:12px 0}
+.btn-wa{background:#25D366;color:#fff;box-shadow:0 0 0 4px rgba(37,211,102,.3),0 10px 25px rgba(37,211,102,.6);animation:pulse 1.5s infinite}
+.btn-ig{background:#000;color:#fff;border:2px solid #FFD700}
+.btn-order{background:linear-gradient(90deg,#FFD700,#FF8A00,#FFD700,#FF8A00);background-size:200% 100%;color:#000;animation:shine 1.5s linear infinite,pulse 1.5s infinite;font-size:19px}
+.marquee{overflow:hidden;white-space:nowrap;background:#FFD700;color:#000;font-weight:bold;padding:9px 0;font-size:14px}.marquee span{display:inline-block;animation:marquee 10s linear infinite}
+.wrap{padding:14px}.card{background:#1E1E1E;border-radius:22px;padding:18px;margin:0 0 14px;border:2px solid #333}
+.card:hover{border-color:#FFD700}
+.badge{display:inline-block;background:#FF0000;color:#fff;padding:6px 12px;border-radius:20px;font-size:12px;font-weight:bold;animation:wiggle 1s infinite}
+.chat-c{background:#2A2A2A;padding:12px;border-radius:14px;margin:8px 0;line-height:1.5}.chat-a{background:#123B2A;padding:12px;border-radius:14px;margin:8px 0;line-height:1.5;border:1px solid #25D366}
+.price{background:#FFF8E7;color:#222;border-radius:14px;padding:14px;line-height:1.7}
+.stats{display:flex;gap:8px;margin:12px 0}.stat{flex:1;background:#000;border:1px solid #FFD700;border-radius:14px;padding:12px;text-align:center}.stat b{font-size:22px;color:#FFD700;display:block}
+.footer{text-align:center;padding:20px;color:#aaa;font-size:13px;line-height:1.6}
+</style></head><body>
+<div class="hero"><div class="star s1">🔥</div><div class="star s2">⭐</div><div class="star s3">✨</div><div class="star s4">🔥</div>
+<div class="confetti" style="left:10%">⭐</div><div class="confetti" style="left:30%;animation-delay:.7s">🔥</div><div class="confetti" style="left:55%;animation-delay:1.2s">⭐</div><div class="confetti" style="left:80%;animation-delay:.3s">✨</div>
+<div style="font-size:40px">🔥🔥</div><h1>RZKY<br>PORTO</h1><div class="typing" id="typing"></div>
+<p style="color:#FFE9A8;line-height:1.6">RIZKY • EST. 2026<br>Admin Chat | Jasa Ketik | Tester Aplikasi<br>Bantuin balesin chat toko biar gak keteteran.</p>
+<div class="stats"><div class="stat"><b>5 Jam</b>Standby / Hari</div><div class="stat"><b>150rb</b>Coba 7 Hari</div><div class="stat"><b>100%</b>Fast Respon</div></div>
+<a class="btn btn-wa" href="https://wa.me/6285801582230">💬 CHAT SEKARANG - WHATSAPP</a>
+<a class="btn btn-ig" href="https://instagram.com/_rzkymhmd__">📸 Instagram @_rzkymhmd__</a>
+<p style="font-size:12px">WhatsApp Bisnis: 085801582230</p></div>
+<div class="marquee"><span>🔥🔥 MENYALA! OPEN JASA ADMIN CHAT • COBA 7 HARI 150RB • FAST RESPON • LAPORAN HARIAN • MENYALA! 🔥🔥</span></div>
+<div class="wrap">
+<div class="card"><span class="badge">🔥 PALING GREGET - WAJIB DIBACA</span><h2>💬 Contoh Balasan Chat</h2>
+<h3>1. Customer Nanya Harga</h3><div class="chat-c">Customer: Kak, sepatu converse yang putih berapa?</div><div class="chat-a">Admin: Halo kak, makasih udah mampir di Toko Sepatu Uniform 🙏 Untuk Converse putih harganya mulai Rp 150.000 kak, lagi ada diskon 10% juga. Kakak size berapa? Biar aku cekin stoknya ya.</div>
+<h3>2. Customer Mau Order</h3><div class="chat-c">Customer: Mau order kak, gimana caranya?</div><div class="chat-a">Admin: Siap kak, boleh screenshot produknya lalu kirim ke sini ya kak. Nanti aku hitungin total + ongkirnya, terus aku kirim nomor rekeningnya. Kakak dari kota mana?</div>
+<h3>3. Customer Komplain</h3><div class="chat-c">Customer: Kak barangnya kok belum sampai?</div><div class="chat-a">Admin: Mohon maaf banget ya kak bikin kakak nunggu 🙏 Boleh aku minta nomor resinya? Aku bantu cek ke ekspedisi sekarang juga ya kak.</div></div>
+<div class="card"><h2>⌨️ Contoh Jasa Ketik</h2><div class="price"><b>DAFTAR HARGA - TOKO SEPATU UNIFORM</b><br>1. Sepatu Putih Polos - Rp 120.000 | Ready 38-43<br>2. Sepatu Hitam Running - Rp 150.000 | Ready 39-44<br>3. Sandal Jepit - Rp 35.000 | Ready All Size</div></div>
+<div class="card"><h2>🧪 Contoh Tester Aplikasi</h2><p><b>Tugas:</b> Cari sepatu putih dan masukkan ke keranjang</p><p>• Homepage - Tampilan jelas, tapi tombol search agak kecil.<br>• Pencarian - Loading agak lama 5 detik.<br>• Keranjang - Gak ada notifikasi setelah Add to Cart.</p><p><b>Saran:</b> Perbesar tombol search, percepat loading, tambahkan notifikasi 'Berhasil ditambahkan'.</p></div>
+<div class="card"><h2>💰 Cara Kerja Sama</h2><p><b>ADMIN CHAT:</b> Coba 7 Hari - Rp 150.000 • Lanjut bulanan 400-600rb • Pembayaran di depan • Laporan tiap malam</p><p><b>TESTER:</b> Kirim link + tugas • Kerjakan 15-20 menit • Rekam layar + suara • Bayar per test</p><a class="btn btn-order" href="https://wa.me/6285801582230?text=Halo%20kak%20Rizky%2C%20mau%20order%20Jasa%20Admin%20Chat">🔥🔥 MAU ORDER - GAS SEKARANG 🔥🔥</a></div>
+</div>
+<div class="footer">Terima kasih sudah melihat portofolio saya 🙏<br>WhatsApp Bisnis: 085801582230 • IG: @_rzkymhmd__<br>Linktree: linktr.ee/rzkymhmd_</div>
+<script>
+const texts=["Coba 7 hari 150rb aja 🔥","Fast Respon - Standby 5 Jam ⚡","Chat gak keteteran lagi 💬","Laporan Harian Tiap Malam 📊"];let ti=0,ci=0;const el=document.getElementById('typing');
+function type(){const t=texts[ti];if(ci<=t.length){el.textContent=t.slice(0,ci);ci++;setTimeout(type,55)}else{setTimeout(()=>{ci=0;ti=(ti+1)%texts.length;type()},1800)}}type();
+</script></body></html>
